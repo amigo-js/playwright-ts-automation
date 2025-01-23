@@ -1,0 +1,59 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Testing files
+allure-results/
+allure-report/
+playwright-report/
+test-results/
+
+# Build files
+dist/
+build/
+coverage/
+
+# Miscellaneous
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Playwright trace files
+trace.zip
+trace.json
+*.webm
+
+# Specific to macOS
+*.DS_Store
+
+# Specific to Windows
+Thumbs.db

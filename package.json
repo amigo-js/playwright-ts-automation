@@ -1,0 +1,28 @@
+{
+  "name": "monogo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:headless": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "allure generate ./allure-results --clean && allure open",
+    "test:allure:headed": "playwright test --headed && allure generate ./allure-results --clean && allure open",
+    "test:report": "playwright test && allure generate ./allure-results --clean && echo 'Allure report generated successfully!' && npx http-server ./allure-report -p 4000",
+    "clean:allure": "rm -rf allure-results allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.7",
+    "allure-playwright": "^3.0.9",
+    "http-server": "^14.1.1",
+    "playwright": "^1.49.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
