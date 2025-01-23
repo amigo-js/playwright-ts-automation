@@ -59,8 +59,7 @@ The main objective of this project is to design automated tests for verifying fu
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/amigo-js/playwright-ts-automation.git
    ```
 2. Install dependencies:
    ```bash
